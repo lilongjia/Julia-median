@@ -2,7 +2,7 @@
 The code can get the median of **one dimension Array** <br/>
 mean(x::Array)=sum(x)/length(x) <br/>
 function median(x::Array)   <br/>
-    if length(x)%2==0  <br/>
+&nbsp;    if length(x)%2==0  <br/>
         X=sort!(x) <br/>
         i=length(x) <br/>
         a=Int(i/2) <br/>
